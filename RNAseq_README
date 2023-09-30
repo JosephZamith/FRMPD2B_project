@@ -1,0 +1,17 @@
+RNA-Seq Data Analysis: Macaque vs. Human
+Description
+This repository contains a Python script for analyzing RNA-seq data focusing on Macaque and Human brain regions. The script reads an Excel file containing mRNA-seq Quality Control data and then groups and processes the data by species and brain region. The analysis involves calculating the mean and standard error of the mean (SEM) for the F2B gene based on predicted age, both linearly and in log2 scale. Finally, the processed data is saved back to Excel files for further use.
+
+Requirements
+Python 3.x
+Pandas
+NumPy
+Matplotlib
+Usage
+Clone this repository.
+Put your mRNA-seq Quality Control data file (mRNA-seq_QC_RKPM.xlsx) in the project directory.
+Run the Python script.
+The script will generate two Excel files:
+
+extracted_RNAseq_macaqueVShuman_RKPM.xlsx: Contains grouped data based on the predicted age.
+extracted_RNAseq_macaqueVShuman_log2_RKPM.xlsx: Contains grouped data based on the log2 of the predicted age.
